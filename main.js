@@ -2015,7 +2015,7 @@ const app = {
 
     // KHI CLICK DUP VÀO BÀI NHẠC THÌ PHÁT NHẠC
     songItems.forEach((songItem, index) => {
-      songItem.ondblclick = function () {
+      songItem.onclick = function () {
         _this.currentIndex = index;
         _this.loadCurrentSong();
         deleteActive();
